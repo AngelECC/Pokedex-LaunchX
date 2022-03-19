@@ -1,0 +1,107 @@
+html{
+    box-sizing: border-box; /*Emparejar la caja y no se deforme*/
+    font-size: 62.5%; /*1 rem = 10px*/ /*Aplicar siempre*/
+    margin: 10rem 0 0 20rem;
+}
+
+*,*::before,*::after { /*Modificaciones antes de una propiedad o después, responsive*/
+    box-sizing: inherit; /*Modificar tamño de componentes respescto al tamaño de la pantalla*/ /*Metodologia demb*/
+}
+
+*{
+    font-size: 2rem;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.contenedor{
+    
+    margin: -70rem 0 0 40rem;
+    overflow: hidden;
+}
+
+.reset{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    width: 5.5rem;
+    height: 5.5rem;
+    margin: 2.6rem 0 0 3.4rem;
+    background-color: black;
+    position: absolute;
+}
+
+.NamesPoke{
+    font-size: 1.5rem;
+    margin: -16.7rem 0 0 8.5rem;
+    width: 9rem;
+    border-radius: 100rem;
+    background-color: #e78960;
+    border-color: white;
+    position: absolute;
+}
+
+.listId{
+    font-size: 1.5rem;
+    margin: -16.7rem 0 0 18rem;
+    width: 9rem;
+    border-radius: 100rem;
+    background-color: #e760d6;
+    border-color: white;
+    position: absolute;
+}
+
+.pokedexStats{
+    display: flex;
+    margin-left: -38rem;
+}
+
+.pokedex{
+    display: flex;
+    margin: 1.5rem 0 0 20rem;
+    position: absolute;
+}
+
+.input{
+    text-align: center;
+    border-radius: 1rem;
+    margin: -8.9rem 0 0 3.5rem;
+    width: 26.2rem;
+    height: 5rem;
+    display: flex;
+    position: absolute;
+    background-color: yellow;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.pokeball{
+    position: absolute;
+    display: flex;
+    margin: -39.2rem 0 0 9.2rem;
+}
+
+button{
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 50%;
+    margin: -11.5rem 0 0 30rem;
+    background-color: rgb(71, 202, 71);
+    position: absolute
+}
+
+.stats{
+    font-weight: bold;
+    margin: -44rem 0 0 42rem;
+    width: 30rem;
+    position: absolute;
+}
+
+.launchx{
+    margin: -9rem 0 0 48rem;
+    position: absolute;
+}
+

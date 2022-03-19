@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+    <title>Pokedex LaunchX</title>
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <img style="width: 100%; margin: -10rem 0 0 0; height: 95rem;" src="./img/fondo.png" alt="fondo">
+    <div class="contenedor">
+        <a href="./index.html">
+            <input class="reset" type="button" value="reset">
+        </a>
+        <!-- <h1>Pokedex LaunchX</h1> -->
+        <div class="pokedex">
+            <img src="./img/Pokedex.png" alt="pokedex" width="170rem">
+        </div>
+        <div class="pokedexStats">
+            <img src="./img/pokedex-stats.png" alt="pokedex-stats">
+        </div>
+        <input class="input" type="text" placeholder="ID o Pokemon" id="pokeName" name="pokeName">
+        <img class="pokeball" src="./img/pokemon sombra.png" alt="Pokemon" id="pokeImg" width="200px"><br>
+        <button onclick="fetchPokemon()">button</button>
+        
+        <div class="stats">
+            <div id="nombre1" class="nombre"></div>
+
+            <div id="tipo1" class="tipo"></div>
+
+            <div id="stats1" class="stat"></div>
+
+            <div id="movimientos1" class="moves"></div>
+        </div>
+        <a href="https://pokemon.fandom.com/es/wiki/Lista_de_Pok%C3%A9mon">
+            <input class="NamesPoke" type="button" value="Names">
+        </a>
+
+        <a href="https://pokemon.fandom.com/es/wiki/Lista_de_Pok%C3%A9mon">
+            <input class="listId" type="button" value="List ID">
+        </a>
+    <img class="launchx" src="./img/LauncheX.png" alt="luanchex" width="170rem">
+
+    </div>
+
+</body>
+<footer><script src="./pokedexLaunchX.js" type="text/javascript"></script>
+</footer>
+</html>
