@@ -14,7 +14,7 @@ html{
 }
 
 .contenedor{
-    
+    width: 100%;
     margin: -70rem 0 0 40rem;
     overflow: hidden;
 }
